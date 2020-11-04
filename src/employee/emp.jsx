@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import AddEmployee from './add';
 import View from './view';
 import Table from './table';
@@ -13,7 +13,9 @@ import {
 export default function Emp() {
 
     return (
+        
         <Router>
+        
         <Link to = {'/add'}><button>Add New Record</button></Link>
             <Switch>
                 <Route exact path = '/add'>
