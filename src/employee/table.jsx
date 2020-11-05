@@ -40,7 +40,7 @@ function Block({history, id}) {
             >View</button>
             <button
                 onClick = {()=> {
-
+                        history.push("/update/"+id);
                 }}
             >Update</button>
             <button
